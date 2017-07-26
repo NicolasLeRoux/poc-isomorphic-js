@@ -4,9 +4,7 @@
   "description": "TODO",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm run browserify",
     "start": "node index.js",
-    "browserify": "browserify src/app.js -o public/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,12 +21,10 @@
   },
   "homepage": "https://github.com/NicolasLeRoux/poc-isomorphic-js#readme",
   "dependencies": {
+    "browserify-middleware": "^7.1.0",
     "domready": "^1.0.8",
     "express": "^4.15.3",
     "mithril": "^1.1.3",
     "mithril-node-render": "^2.1.0"
-  },
-  "devDependencies": {
-    "browserify": "^14.4.0"
   }
 }
