@@ -11,6 +11,20 @@ le client (Progressive enhancement). Le framework structurant doit proposer du
 code isomorphic afin d'être exécuter côté server (SEO, Search Engine Optimization)...
 
 
+## Cas pratique
+
+Utiliser ``https://randomuser.me`` qui propose une API de génération d'utilisateur
+à la _Lorem ipsum_. Note: L'utilisation d'une seed permet même d'avoir de la
+répétabilité sur le jeux de données.
+
+L'application doit se composer de 2 vues:
+- Une liste avec des utilisateurs,
+- Une page de détail de l'utilisateur selectionné.
+
+L'utilisation d'un _query param_ doit permettre de générer du rendu côté serveur.
+Exemple: ``user?id={{seed}}``
+
+
 ## mithril-isomorphic-example
 
 Une ``baseView`` est utilisée pour construire le squelette de la page HTML. Les

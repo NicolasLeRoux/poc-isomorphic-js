@@ -10,8 +10,6 @@ const browserify = require('browserify-middleware')
 
 var app = express();
 
-app.get('/app.js', browserify('./src/app.js'));
-
 Object.keys(routes).map(function (route) {
 	const module = routes[route];
 	const onmatch = module.onmatch || (() => module);
@@ -19,7 +17,6 @@ Object.keys(routes).map(function (route) {
 
 	app.get(route, function (req, res, next) {
 		res.type('html');
-		//res.send('Hello world !!!');
 
 		Promise.resolve()
 			.then(() => m(onmatch(req.params, req.url) || 'div', req.params))
@@ -28,6 +25,12 @@ Object.keys(routes).map(function (route) {
 			.then(res.send.bind(res))
 			.catch(next);
 	});
+});
+
+app.get('/app.js', function (req, res, next) {
+	setTimeout(function () {
+		browserify('./src/app.js')(req, res, next);
+	}, 3000);
 });
 
 app.listen(3000);
