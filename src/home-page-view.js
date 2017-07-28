@@ -11,10 +11,10 @@ module.exports = {
 					m('title', 'Page home !'),
 					m('meta[charset=utf-8]'),
 					m('script[src=/app.js]')
+				]),
+				m('body', [
+					m('h1', 'Hello world !!!')
 				])
-			]),
-			m('body', [
-				m('h1', 'Hello world !!!')
 			])
 		];
 	}

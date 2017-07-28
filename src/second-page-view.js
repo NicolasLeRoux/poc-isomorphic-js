@@ -2,7 +2,7 @@
 
 const m = require('mithril');
 
-module.exports =  {
+module.exports = {
 	view: function view () {
 		return [
 			m('!doctype[html]'),
@@ -11,10 +11,10 @@ module.exports =  {
 					m('title', 'Seconde page.'),
 					m('meta[charset=utf-8]'),
 					m('script[src=/app.js]')
+				]),
+				m('body', [
+					m('h1', 'Hello world !!!')
 				])
-			]),
-			m('body', [
-				m('h1', 'Hello world !!!')
 			])
 		];
 	}

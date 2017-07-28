@@ -25,6 +25,12 @@ L'utilisation d'un _query param_ doit permettre de générer du rendu côté ser
 Exemple: ``user?id={{seed}}``
 
 
+## Server side rendering
+
+__Question:__ La balise ``head`` doit-elle est aussi générée côté front. Et si les
+scripts changent ???
+
+
 ## mithril-isomorphic-example
 
 Une ``baseView`` est utilisée pour construire le squelette de la page HTML. Les
@@ -44,8 +50,7 @@ manipuler les éléments présent dans le ``head``. Il est préférable d'écrir
 
 ## TODO
 
-1. Utiliser ``browserify-middleware`` pour faire une transformation des scripts
-à la volée.
+1. ...
 
 
 ## Liens
