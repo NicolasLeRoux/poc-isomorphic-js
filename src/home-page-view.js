@@ -6,13 +6,12 @@ module.exports = {
 	users: [],
 
 	oninit: function(vnode) {
-		m.request({
+		return m.request({
 				method: 'GET',
 				url: 'https://randomuser.me/api'
 			})
 			.then(json => {
-				console.log('Mes données: ', json);
-				this.users = json.results;
+				vnode.state.users = json.results;
 			});
 	},
 

@@ -1,5 +1,6 @@
 // use a mock DOM so we can run mithril on the server
 require('mithril/test-utils/browserMock')(global);
+global.window.XMLHttpRequest = require('w3c-xmlhttprequest').XMLHttpRequest;
 
 const express = require('express');
 const path = require("path");
