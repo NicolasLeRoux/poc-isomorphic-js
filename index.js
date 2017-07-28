@@ -6,6 +6,7 @@ const path = require("path");
 const m = require('mithril');
 const toHtml = require('mithril-node-render');
 const routes = require('./src/routes');
+const headView = require('./src/head-view');
 const browserify = require('browserify-middleware')
 
 var app = express();
@@ -24,7 +25,10 @@ Object.keys(routes).map(function (route) {
 					view: function view () {
 						return [
 							m('!doctype[html]'),
-							m('html[lang=en]', m(onmatch(req.params, req.url) || 'div', req.params))
+							m('html[lang=en]', [
+								m(headView),
+								m('body', m(onmatch(req.params, req.url) || 'div', req.params))
+							])
 						];
 					}
 				};
