@@ -50,7 +50,9 @@ manipuler les éléments présent dans le ``head``. Il est préférable d'écrir
 
 ## TODO
 
-1. ...
+1. Permettre l'édition de l'entête du site ``head``.
+
+2. Utiliser des web components pour faire du ``Progressive enhancement``.
 
 
 ## Liens

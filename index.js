@@ -21,6 +21,7 @@ Object.keys(routes).map(function (route) {
 
 		Promise.resolve()
 			.then(() => {
+				// TODO: Refacto pour rendre ça testable...
 				return {
 					view: function view () {
 						return [
