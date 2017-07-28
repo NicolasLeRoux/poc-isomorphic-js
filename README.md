@@ -27,8 +27,8 @@ Exemple: ``user?id={{seed}}``
 
 ## Server side rendering
 
-__Question:__ La balise ``head`` doit-elle est aussi générée côté front. Et si les
-scripts changent ???
+__Question:__ La balise ``head`` doit-elle aussi être générée côté front. Et si les
+scripts changent ??? Problème, les balises scripts sont chargées a chaque redraw.
 
 
 ## mithril-isomorphic-example

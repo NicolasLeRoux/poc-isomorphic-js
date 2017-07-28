@@ -7,5 +7,5 @@ const routes = require('./routes');
 m.route.prefix('');
 
 domready(function () {
-	m.route(document, '/', routes);
+	m.route(document.body.parentElement, '/', routes);
 });

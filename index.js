@@ -19,7 +19,16 @@ Object.keys(routes).map(function (route) {
 		res.type('html');
 
 		Promise.resolve()
-			.then(() => m(onmatch(req.params, req.url) || 'div', req.params))
+			.then(() => {
+				return {
+					view: function view () {
+						return [
+							m('!doctype[html]'),
+							m('html[lang=en]', m(onmatch(req.params, req.url) || 'div', req.params))
+						];
+					}
+				};
+			})
 			.then(render)
 			.then(toHtml)
 			.then(res.send.bind(res))
