@@ -2,5 +2,5 @@
 
 module.exports = {
 	'/': require('./home-page-view'),
-	'/second': require('./second-page-view')
+	'/users/:id': require('./second-page-view')
 }

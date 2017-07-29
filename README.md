@@ -24,6 +24,9 @@ L'application doit se composer de 2 vues:
 L'utilisation d'un _query param_ doit permettre de générer du rendu côté serveur.
 Exemple: ``user?id={{seed}}``
 
+Problème: La ``seed`` renseignée ici permet de rejouer la requête mais pas d'avoir
+les informations sur une personne unique...
+
 
 ## Server side rendering
 
@@ -53,6 +56,8 @@ manipuler les éléments présent dans le ``head``. Il est préférable d'écrir
 1. Permettre l'édition de l'entête du site ``head``.
 
 2. Utiliser des web components pour faire du ``Progressive enhancement``.
+
+3. Utiliser redux pour manager les states de l'application.
 
 
 ## Liens

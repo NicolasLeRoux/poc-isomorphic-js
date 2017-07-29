@@ -8,7 +8,7 @@ module.exports = {
 	oninit: function(vnode) {
 		return m.request({
 				method: 'GET',
-				url: 'https://randomuser.me/api'
+				url: 'https://randomuser.me/api?results=10'
 			})
 			.then(json => {
 				vnode.state.users = json.results;
@@ -18,16 +18,19 @@ module.exports = {
 	view: function view (vnode) {
 		return [
 			m('h1', 'Hello world !!!'),
-			m('a', {
-				href: '/second',
-				oncreate: m.route.link
-			}, 'Page second'),
+			m('h2', 'Liste de personne:'),
 			m('ul', vnode.state.users.map(function(user) {
 				return m('li', [
-					user.name.title,
-					user.name.first,
-					user.name.last
-				].join(' '));
+					m('p', [
+						user.name.title,
+						user.name.first,
+						user.name.last
+					].join(' ')),
+					m('a', {
+						href: '/users/' + user.login.username,
+						oncreate: m.route.link
+					}, 'more...'),
+				]);
 			}))
 		];
 	}
