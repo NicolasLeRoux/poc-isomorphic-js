@@ -6,13 +6,17 @@ module.exports = {
 	users: [],
 
 	oninit: function(vnode) {
-		return m.request({
-				method: 'GET',
-				url: 'https://randomuser.me/api?results=10'
-			})
-			.then(json => {
-				vnode.state.users = json.results;
-			});
+		if (window.data) {
+			vnode.state.users = window.data;
+		} else {
+			return m.request({
+					method: 'GET',
+					url: 'https://randomuser.me/api?results=10'
+				})
+				.then(json => {
+					vnode.state.users = json.results;
+				});
+		}
 	},
 
 	view: function view (vnode) {
@@ -31,7 +35,8 @@ module.exports = {
 						oncreate: m.route.link
 					}, 'more...'),
 				]);
-			}))
+			})),
+			m('script', 'window.data = ' + JSON.stringify(vnode.state.users))
 		];
 	}
 };
