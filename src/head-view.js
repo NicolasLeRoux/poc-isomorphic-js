@@ -11,6 +11,11 @@ module.exports = {
 				m('script', {
 					src: '/app.js',
 					async: true
+				}),
+				m('link', {
+					rel: 'import',
+					href: '/poc-contact-elem.html',
+					async: true
 				})
 			])
 		];

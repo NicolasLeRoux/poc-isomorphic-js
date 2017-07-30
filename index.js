@@ -8,7 +8,7 @@ const m = require('mithril');
 const toHtml = require('mithril-node-render');
 const routes = require('./src/routes');
 const headView = require('./src/head-view');
-const browserify = require('browserify-middleware')
+const browserify = require('browserify-middleware');
 
 var app = express();
 
@@ -46,6 +46,12 @@ app.get('/app.js', function (req, res, next) {
 	setTimeout(function () {
 		browserify('./src/app.js')(req, res, next);
 	}, 3000);
+});
+
+app.get('/poc-contact-elem.html', function (req, res, next) {
+	setTimeout(function () {
+		res.sendFile(path.join(__dirname, './src/poc-contact-elem.html'));
+	}, 1000);
 });
 
 app.listen(3000);

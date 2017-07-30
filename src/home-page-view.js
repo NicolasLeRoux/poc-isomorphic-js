@@ -34,6 +34,9 @@ module.exports = {
 						href: '/users/' + user.login.username,
 						oncreate: m.route.link
 					}, 'more...'),
+					m('img', {
+						src: user.picture.thumbnail
+					})
 				]);
 			})),
 			m('script', 'window.data = ' + JSON.stringify(vnode.state.users))

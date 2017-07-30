@@ -59,6 +59,8 @@ manipuler les éléments présent dans le ``head``. Il est préférable d'écrir
 
 3. Utiliser redux pour manager les states de l'application.
 
+4. Envoyer les images en base64.
+
 
 ## Liens
 

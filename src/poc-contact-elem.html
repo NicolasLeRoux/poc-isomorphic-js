@@ -1,0 +1,25 @@
+<template id="poc-contact-tmpl">
+	<style>
+		:host {
+		}
+	</style>
+</template>
+
+<script>
+	class ContactElem extends HTMLElement {
+		constructor () {
+			super();
+
+			var shadow = this.attachShadow({
+					mode: 'open'
+				}),
+				doc = document.currentScript.ownerDocument,
+				tmplElem = doc.getElementById('poc-contact-tmpl'),
+				content = doc.importNode(tmplElem.content, true);
+
+			shadow.appendChild(content);
+		}
+	};
+
+	customElements.define('poc-contact-elem', ContactElem);
+</script>
