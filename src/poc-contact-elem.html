@@ -15,12 +15,14 @@
 </template>
 
 <script>
+	// Note: ``importDoc`` references this import's document. It must be done
+	// here in order to keep the refecence of the imported document for later
+	// instanciation of the custom element.
+	var importDoc = document.currentScript.ownerDocument;
+
 	class ContactElem extends HTMLElement {
 		constructor () {
 			super();
-
-			// importDoc references this import's document
-			var importDoc = document.currentScript.ownerDocument;
 
 			var template = importDoc
 				.querySelector('#poc-contact-tmpl')
