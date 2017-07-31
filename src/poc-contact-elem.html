@@ -1,8 +1,17 @@
 <template id="poc-contact-tmpl">
 	<style>
 		:host {
+			display: block;
+			background: lightblue;
 		}
 	</style>
+
+	<slot name="name">
+	</slot>
+	<slot name="link">
+	</slot>
+	<slot name="picture">
+	</slot>
 </template>
 
 <script>
@@ -10,14 +19,15 @@
 		constructor () {
 			super();
 
-			var shadow = this.attachShadow({
-					mode: 'open'
-				}),
-				doc = document.currentScript.ownerDocument,
-				tmplElem = doc.getElementById('poc-contact-tmpl'),
-				content = doc.importNode(tmplElem.content, true);
+			// importDoc references this import's document
+			var importDoc = document.currentScript.ownerDocument;
 
-			shadow.appendChild(content);
+			var template = importDoc
+				.querySelector('#poc-contact-tmpl')
+				.content;
+
+			const shadowRoot = this.attachShadow({mode: 'open'})
+				.appendChild(template.cloneNode(true));
 		}
 	};
 

@@ -51,6 +51,15 @@ manipuler les éléments présent dans le ``head``. Il est préférable d'écrir
 ``head`` en utilisant des vue pour les factorisations...
 
 
+## Les web components
+
+L'ordre de l'import des _web components_ semble avoir de l'importance... Si le
+component est chargé avant le redraw, le ``document.currentScript`` est null lors
+du redraw. Et même avec le switch sur ``document``, le ``querySelector`` est null.
+
+Question: Comment corriger ce bug !?
+
+
 ## TODO
 
 1. Permettre l'édition de l'entête du site ``head``.

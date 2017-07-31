@@ -24,17 +24,21 @@ module.exports = {
 			m('h1', 'Hello world !!!'),
 			m('h2', 'Liste de personne:'),
 			m('ul', vnode.state.users.map(function(user) {
-				return m('li', [
-					m('p', [
+				return m('poc-contact-elem', [
+					m('p', {
+						slot: 'name'
+					}, [
 						user.name.title,
 						user.name.first,
 						user.name.last
 					].join(' ')),
 					m('a', {
+						slot: 'link',
 						href: '/users/' + user.login.username,
 						oncreate: m.route.link
 					}, 'more...'),
 					m('img', {
+						slot: 'picture',
 						src: user.picture.thumbnail
 					})
 				]);
