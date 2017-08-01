@@ -1,17 +1,35 @@
 <template id="poc-contact-tmpl">
 	<style>
 		:host {
-			display: block;
+			display: flex;
 			background: lightblue;
+		}
+
+		.left-area,
+		.right-area {
+			margin: 10px 5px;
+		}
+
+		.left-area {
+			flex: 1;
+		}
+
+		.right-area {
+			flex: 5;
 		}
 	</style>
 
-	<slot name="name">
-	</slot>
-	<slot name="link">
-	</slot>
-	<slot name="picture">
-	</slot>
+	<div class="left-area">
+		<slot name="picture">
+		</slot>
+	</div>
+
+	<div class="right-area">
+		<slot name="name">
+		</slot>
+		<slot name="link">
+		</slot>
+	</div>
 </template>
 
 <script>
