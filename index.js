@@ -9,6 +9,7 @@ const toHtml = require('mithril-node-render');
 const routes = require('./src/routes');
 const headView = require('./src/head-view');
 const browserify = require('browserify-middleware');
+const StyletronServer = require('styletron-server');
 
 var app = express();
 
@@ -16,6 +17,7 @@ Object.keys(routes).map(function (route) {
 	const module = routes[route];
 	const onmatch = module.onmatch || (() => module);
 	const render = module.render || (a => a);
+	const styletron = new StyletronServer();
 
 	app.get(route, function (req, res, next) {
 		res.type('html');
@@ -28,8 +30,8 @@ Object.keys(routes).map(function (route) {
 						return [
 							m('!doctype[html]'),
 							m('html[lang=en]', [
-								m(headView),
-								m('body', m(onmatch(req.params, req.url) || 'div', req.params))
+								m(headView, {styletron}),
+								m('body', m(onmatch(req.params, req.url) || 'div', Object.assign({}, req.params, {styletron})))
 							])
 						];
 					}
