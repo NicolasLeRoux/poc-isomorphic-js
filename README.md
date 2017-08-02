@@ -70,6 +70,9 @@ Question: Comment corriger ce bug !?
 
 4. Envoyer les images en base64.
 
+5. Utiliser styletron (https://github.com/rtsao/styletron) pour la génération du
+style de l'application.
+
 
 ## Liens
 

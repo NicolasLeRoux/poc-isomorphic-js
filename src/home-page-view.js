@@ -1,6 +1,7 @@
 'use strict'
 
 const m = require('mithril');
+const contactView = require('./contact-view.js');
 const StyletronClient = require('styletron-client');
 
 function titleStyle (styletron) {
@@ -39,24 +40,9 @@ module.exports = {
 			}, 'Hello world !!!'),
 			m('h2', 'Liste de personne:'),
 			m('ul', vnode.state.users.map(function(user) {
-				return m('poc-contact-elem', [
-					m('p', {
-						slot: 'name'
-					}, [
-						user.name.title,
-						user.name.first,
-						user.name.last
-					].join(' ')),
-					m('a', {
-						slot: 'link',
-						href: '/users/' + user.login.username,
-						oncreate: m.route.link
-					}, 'more...'),
-					m('img', {
-						slot: 'picture',
-						src: user.picture.thumbnail
-					})
-				]);
+				return m(contactView, {
+					user: user
+				});
 			})),
 			m('script', 'window.data = ' + JSON.stringify(vnode.state.users))
 		];
