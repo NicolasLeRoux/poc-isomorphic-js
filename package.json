@@ -28,6 +28,7 @@
     "mithril-node-render": "^2.1.0",
     "redux": "^3.7.2",
     "styletron": "^2.5.7",
+    "styletron-utils": "^2.5.4",
     "w3c-xmlhttprequest": "^2.1.2"
   }
 }

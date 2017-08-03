@@ -2,11 +2,12 @@
 
 const m = require('mithril');
 const StyletronClient = require('styletron-client');
+const StyletronUtils = require('styletron-utils');
 
 function titleStyle (styletron) {
-	return styletron.injectDeclaration({
-		prop: 'color',
-		val: 'blue'
+	return StyletronUtils.injectStyle(styletron, {
+		color: 'blue',
+		'text-decoration': 'underline'
 	});
 }
 
