@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "fabio",
+		"last": "moreau"
+	},
+	"location": {
+		"street": "8529 avenue des ternes",
+		"city": "avignon",
+		"state": "martinique",
+		"postcode": 55339
+	},
+	"email": "fabio.moreau@example.com",
+	"dob": "1988-05-14 08:31:16",
+	"registered": "2012-05-22 19:22:24",
+	"phone": "02-92-31-45-30",
+	"cell": "06-99-61-34-29",
+	"id": "92463afd2563eeb591bd1c52224aac2b",
+	"picture": "009.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAfEAABBAICAwAAAAAAAAAAAAABAAMEEQIFBhIiMVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAABf/EAB0RAAEEAgMAAAAAAAAAAAAAAAEAAgMRBAVRYZH/2gAMAwEAAhEDEQA/AJ/dCNs+Gt7R6AxMkO7AsDPORkHfBvsBkQK6EVQv2ftoiKJlYETXAC6rko3YS9eL/9k=",
+	"nat": "FR"
+}

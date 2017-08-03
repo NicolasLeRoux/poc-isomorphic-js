@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "miss",
+		"first": "jasmina",
+		"last": "beck"
+	},
+	"location": {
+		"street": "5338 brunnenstraße",
+		"city": "suhl",
+		"state": "schleswig-holstein",
+		"postcode": 82596
+	},
+	"email": "jasmina.beck@example.com",
+	"dob": "1987-06-21 16:05:20",
+	"registered": "2005-11-20 09:24:21",
+	"phone": "0469-7840759",
+	"cell": "0175-9812254",
+	"id": "031f4fc124b9522c8b179bb9a5043078",
+	"picture": "005.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAgEAABAwMFAQAAAAAAAAAAAAABAAIDBBFBBQYTFCFR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/EABoRAAICAwAAAAAAAAAAAAAAAAIRAAEDEiH/2gAMAwEAAhEDEQA/ALG5NZfFUT0sId2GcM0T8AX9H3BuMgoiJhj2duIjS5P/2Q==",
+	"nat": "DE"
+}

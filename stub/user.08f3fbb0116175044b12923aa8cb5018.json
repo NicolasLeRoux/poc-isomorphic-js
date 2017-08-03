@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "adem",
+		"last": "pekkan"
+	},
+	"location": {
+		"street": "6255 anafartalar cd",
+		"city": "uşak",
+		"state": "balıkesir",
+		"postcode": 82096
+	},
+	"email": "adem.pekkan@example.com",
+	"dob": "1971-08-25 21:33:26",
+	"registered": "2015-05-20 11:03:24",
+	"phone": "(576)-943-3547",
+	"cell": "(847)-202-4636",
+	"id": "08f3fbb0116175044b12923aa8cb5018",
+	"picture": "006.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAgEAABAwMFAQAAAAAAAAAAAAADAQIEAAURBgcIEhMh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwX/xAAcEQEAAgEFAAAAAAAAAAAAAAABAAMRAgQSMUL/2gAMAwEAAhEDEQA/AL7feQ20tm3rj66Nq+UC1TZU2xFlMabwLIYLzcAyOJ0UbCInR7Rp9xhyplVUpR10iLl7ZQ3WOWkDyT//2Q==",
+	"nat": "TR"
+}

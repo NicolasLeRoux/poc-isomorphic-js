@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "اميرمحمد",
+		"last": "کریمی"
+	},
+	"location": {
+		"street": "8559 فاطمی",
+		"city": "شیراز",
+		"state": "کرمانشاه",
+		"postcode": 66229
+	},
+	"email": "اميرمحمد.کریمی@example.com",
+	"dob": "1982-11-23 14:32:50",
+	"registered": "2012-01-23 05:00:40",
+	"phone": "046-37981038",
+	"cell": "0919-370-8964",
+	"id": "2d44f4683ab8e1dce5fa8fad84e44f71",
+	"picture": "011.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAgEAACAQMEAwAAAAAAAAAAAAABAgMABAUGESExBxJx/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/EABsRAAIBBQAAAAAAAAAAAAAAAAABcQIDBCIy/9oADAMBAAIRAxEAPwCreagwWL8hLlnzm9iiCK4ZJXkjRguxj9Rx2QeAfvdKUoeLQtpEX3zB/9k=",
+	"nat": "IR"
+}

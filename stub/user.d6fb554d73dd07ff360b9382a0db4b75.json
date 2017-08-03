@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "väinö",
+		"last": "kari"
+	},
+	"location": {
+		"street": "9699 hämeenkatu",
+		"city": "pornainen",
+		"state": "finland proper",
+		"postcode": 15966
+	},
+	"email": "väinö.kari@example.com",
+	"dob": "1945-06-06 19:38:37",
+	"registered": "2013-04-24 07:00:25",
+	"phone": "08-630-118",
+	"cell": "041-128-69-65",
+	"id": "d6fb554d73dd07ff360b9382a0db4b75",
+	"picture": "008.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAgEAABBAIBBQAAAAAAAAAAAAABAAMFEQIEIQYSEzFh/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABYRAAMAAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEQMRAD8AkZDo2V0NJ6Uyj38gPI73g8BrGwARfHoGvtoiIpQlM//Z",
+	"nat": "FI"
+}

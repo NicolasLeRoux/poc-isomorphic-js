@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "ms",
+		"first": "iraci",
+		"last": "aragão"
+	},
+	"location": {
+		"street": "9535 rua das flores ",
+		"city": "alvorada",
+		"state": "rondônia",
+		"postcode": 15202
+	},
+	"email": "iraci.aragão@example.com",
+	"dob": "1953-10-05 18:20:06",
+	"registered": "2009-05-20 06:35:17",
+	"phone": "(54) 5445-1599",
+	"cell": "(01) 4855-4282",
+	"id": "ac250f05af602f9ba18c93caa0408144",
+	"picture": "010.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAfEAABAwQDAQAAAAAAAAAAAAABAAIEAwUREgYhUnH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAwDAQACEQMRAD8Ah5Ee2N4LEcym03GtIeaji076jrGfJBB+goiJJHUtDf/Z",
+	"nat": "BR"
+}

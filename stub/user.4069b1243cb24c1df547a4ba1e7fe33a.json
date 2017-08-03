@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "mrs",
+		"first": "emma",
+		"last": "wirkkala"
+	},
+	"location": {
+		"street": "8634 mechelininkatu",
+		"city": "oulu",
+		"state": "central finland",
+		"postcode": 31559
+	},
+	"email": "emma.wirkkala@example.com",
+	"dob": "1961-10-31 12:55:59",
+	"registered": "2006-12-14 10:11:10",
+	"phone": "05-654-487",
+	"cell": "049-449-80-38",
+	"id": "4069b1243cb24c1df547a4ba1e7fe33a",
+	"picture": "003.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAfEAACAgEEAwAAAAAAAAAAAAACAwABEQQFEiEVIkH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAAMAAAAAAAAAAAAAAAAAAAACIf/aAAwDAQACEQMRAD8AsVR3vbtQ/Qn5B+6LUlpBmwUIew0Weh456+2UREC0q8P/2Q==",
+	"nat": "FI"
+}

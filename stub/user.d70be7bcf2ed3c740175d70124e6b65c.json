@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "durmus",
+		"last": "houwaart"
+	},
+	"location": {
+		"street": "5708 a.b.c.-straat",
+		"city": "den haag",
+		"state": "overijssel",
+		"postcode": 85909
+	},
+	"email": "durmus.houwaart@example.com",
+	"dob": "1978-07-28 08:10:07",
+	"registered": "2012-12-24 23:34:43",
+	"phone": "(681)-116-3469",
+	"cell": "(102)-557-1672",
+	"id": "d70be7bcf2ed3c740175d70124e6b65c",
+	"picture": "007.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAiEAABAgUEAwAAAAAAAAAAAAACAQMABAUGEgcIEyEiI1H/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAHBEAAgICAwAAAAAAAAAAAAAAAQIABBLBA1Fh/9oADAMBAAIRAxEAPwCD07bbeEltUqFnP6RuTGodUrCT7HuYJ9mVBQUTQ8sQ8Mx48lJeuviEIBUcrme2Oou0cxx+KNz/2Q==",
+	"nat": "NL"
+}

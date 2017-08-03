@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "monsieur",
+		"first": "luca",
+		"last": "girard"
+	},
+	"location": {
+		"street": "7514 route de genas",
+		"city": "monnaz",
+		"state": "zürich",
+		"postcode": 3203
+	},
+	"email": "luca.girard@example.com",
+	"dob": "1974-04-14 22:07:23",
+	"registered": "2009-05-20 18:52:43",
+	"phone": "(474)-752-0895",
+	"cell": "(434)-686-5983",
+	"id": "2cf7c7058fb65941782476ec9fed0942",
+	"picture": "001.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAgEAABBAEEAwAAAAAAAAAAAAABAAIDBREEBiEiEjFR/8QAFAEBAAAAAAAAAAAAAAAAAAAABf/EABoRAQACAwEAAAAAAAAAAAAAAAEAAgMEERP/2gAMAwEAAhEDEQA/AKeqsZaPcthDcWL3RyAPYJB0bk9fHHrjgg/EREXXVpkBWK+1gOT/2Q==",
+	"nat": "CH"
+}

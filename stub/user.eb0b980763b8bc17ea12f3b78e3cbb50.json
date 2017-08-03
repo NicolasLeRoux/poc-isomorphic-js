@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "mrs",
+		"first": "esther",
+		"last": "duran"
+	},
+	"location": {
+		"street": "9914 calle de arturo soria",
+		"city": "logroño",
+		"state": "cantabria",
+		"postcode": 15680
+	},
+	"email": "esther.duran@example.com",
+	"dob": "1962-03-29 20:25:39",
+	"registered": "2006-02-28 14:50:31",
+	"phone": "958-308-660",
+	"cell": "653-240-466",
+	"id": "eb0b980763b8bc17ea12f3b78e3cbb50",
+	"picture": "002.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAeEAACAgICAwAAAAAAAAAAAAABAgURAAMEEgYTIf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AoNYueTzlpczvLeHfinWY0rr9CMK6svzsGuyWs3dVQGMYwqX/2Q==",
+	"nat": "ES"
+}
