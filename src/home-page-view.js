@@ -3,11 +3,11 @@
 const m = require('mithril');
 const contactView = require('./contact-view.js');
 const StyletronClient = require('styletron-client');
+const StyletronUtils = require('styletron-utils');
 
 function titleStyle (styletron) {
-	return styletron.injectDeclaration({
-		prop: 'color',
-		val: 'green'
+	return StyletronUtils.injectStyle(styletron, {
+		color: 'green'
 	});
 }
 
@@ -41,7 +41,8 @@ module.exports = {
 			m('h2', 'Liste de personne:'),
 			m('ul', vnode.state.users.map(function(user) {
 				return m(contactView, {
-					user: user
+					user: user,
+					styletron: vnode.attrs.styletron
 				});
 			})),
 			m('script', 'window.data = ' + JSON.stringify(vnode.state.users))
