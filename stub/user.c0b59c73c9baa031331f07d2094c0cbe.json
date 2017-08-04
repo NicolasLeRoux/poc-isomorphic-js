@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "özkan",
+		"last": "beşerler"
+	},
+	"location": {
+		"street": "9302 maçka cd",
+		"city": "rize",
+		"state": "çorum",
+		"postcode": 57355
+	},
+	"email": "özkan.beşerler@example.com",
+	"dob": "1970-05-22 02:46:55",
+	"registered": "2004-12-16 11:46:46",
+	"phone": "(386)-202-8286",
+	"cell": "(388)-502-8206",
+	"id": "c0b59c73c9baa031331f07d2094c0cbe",
+	"picture": "019.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCAAIAAgDAREAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAACv/EABwQAAIDAQADAAAAAAAAAAAAAAIFAQMEBgcRFf/EABQBAQAAAAAAAAAAAAAAAAAAAAf/xAAeEQADAAICAwEAAAAAAAAAAAABAgMFEgQTBhEhMf/aAAwDAQACEQMRAD8ALo38l8j1fKN2HpctnM2SrV6vTjPN0G/PotuYa2SrFgG6n5AnYVVs36AtEcIQYydlNcGuN8U5eKWcVd+Reydr0Z95q0wqGRdgGDv72n6XQnck/pLPlvO8bm48i9Jx4sIVWM5LPru06M9O5ZqWQyQjSpZ+wDrAU/AP/9k=",
+	"nat": "TR"
+}

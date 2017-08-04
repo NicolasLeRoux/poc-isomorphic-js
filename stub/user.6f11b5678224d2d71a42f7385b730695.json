@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "sebastian",
+		"last": "robertson"
+	},
+	"location": {
+		"street": "3672 mcclellan rd",
+		"city": "kalgoorlie",
+		"state": "western australia",
+		"postcode": 4158
+	},
+	"email": "sebastian.robertson@example.com",
+	"dob": "1975-06-06 04:13:05",
+	"registered": "2004-09-20 00:04:22",
+	"phone": "00-4680-3007",
+	"cell": "0470-089-405",
+	"id": "6f11b5678224d2d71a42f7385b730695",
+	"picture": "012.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAQDAwMDAgQDAwMEBAQFBgoGBgUFBgwICQcKDgwPDg4MDQ0PERYTDxAVEQ0NExoTFRcYGRkZDxIbHRsYHRYYGRj/2wBDAQQEBAYFBgsGBgsYEA0QGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBj/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAP/xAAgEAABBAEEAwAAAAAAAAAAAAABAAIDEQUEBhMxFCFB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAaEQEBAAIDAAAAAAAAAAAAAAABAwACBCJx/9oADAMBAAIRAxEAPwCMOT3WzCsyLY9VHJITF407hwH6GAHp1W6/R7s0iIjPhS2FTI3o9fDP/9k=",
+	"nat": "AU"
+}

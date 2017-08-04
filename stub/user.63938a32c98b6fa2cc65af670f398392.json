@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "bobby",
+		"last": "clarke"
+	},
+	"location": {
+		"street": "1698 manor road",
+		"city": "newport",
+		"state": "west sussex",
+		"postcode": "BH4I 4NL"
+	},
+	"email": "bobby.clarke@example.com",
+	"dob": "1947-12-19 11:25:32",
+	"registered": "2014-06-15 01:33:28",
+	"phone": "015242 17398",
+	"cell": "0705-345-318",
+	"id": "63938a32c98b6fa2cc65af670f398392",
+	"picture": "013.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAfEAABBAICAwAAAAAAAAAAAAABAAIDIQQSBjERExT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAA//EABkRAAEFAAAAAAAAAAAAAAAAAAABAhEhQf/aAAwDAQACEQMRAD8ArQ4Qk5JkH65HaRMPrDzoxvWpHXk2bugiIqJUh2H/2Q==",
+	"nat": "GB"
+}

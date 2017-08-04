@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "todd",
+		"last": "thomas"
+	},
+	"location": {
+		"street": "6149 spring st",
+		"city": "gainesville",
+		"state": "connecticut",
+		"postcode": 30488
+	},
+	"email": "todd.thomas@example.com",
+	"dob": "1967-04-06 03:32:36",
+	"registered": "2012-07-31 08:23:26",
+	"phone": "(640)-999-9482",
+	"cell": "(047)-883-9063",
+	"id": "5ba22e277ad7e7b477b4d27c71a6e8de",
+	"picture": "016.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAQDAwMDAgQDAwMEBAQFBgoGBgUFBgwICQcKDgwPDg4MDQ0PERYTDxAVEQ0NExoTFRcYGRkZDxIbHRsYHRYYGRj/2wBDAQQEBAYFBgsGBgsYEA0QGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBj/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAeEAABBAMAAwAAAAAAAAAAAAABAgMEBQAHERIjQf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGhEAAgIDAAAAAAAAAAAAAAAAAQMAIQISMf/aAAwDAQACEQMRAD8ApvNZbLRU1VRDrpUZqFBYQ82h4FtDISoPlaQfa4TxXe+RB6B8xjGTavU0YsmcoT//2Q==",
+	"nat": "US"
+}

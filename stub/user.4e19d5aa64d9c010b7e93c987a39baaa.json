@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "mrs",
+		"first": "norah",
+		"last": "carpentier"
+	},
+	"location": {
+		"street": "3565 rue desaix",
+		"city": "bordeaux",
+		"state": "mayotte",
+		"postcode": 28380
+	},
+	"email": "norah.carpentier@example.com",
+	"dob": "1963-05-11 05:37:17",
+	"registered": "2009-07-11 09:49:06",
+	"phone": "03-73-15-95-60",
+	"cell": "06-85-18-80-23",
+	"id": "4e19d5aa64d9c010b7e93c987a39baaa",
+	"picture": "017.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAeEAABBAEFAAAAAAAAAAAAAAACAAEDBBEGByFyof/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/8QAGxEBAAICAwAAAAAAAAAAAAAAAQBBAgMEMfD/2gAMAwEAAhEDEQA/AKNndq3U1pWjnkkaoMrV5ohDIOzhyXZj8yiIrzh4Nte6hNq0T//Z",
+	"nat": "FR"
+}

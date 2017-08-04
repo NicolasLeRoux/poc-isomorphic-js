@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "samuel",
+		"last": "elo"
+	},
+	"location": {
+		"street": "5409 siilitie",
+		"city": "pomarkku",
+		"state": "northern ostrobothnia",
+		"postcode": 58682
+	},
+	"email": "samuel.elo@example.com",
+	"dob": "1954-02-24 05:11:30",
+	"registered": "2006-07-12 08:07:53",
+	"phone": "03-575-063",
+	"cell": "044-103-09-24",
+	"id": "2edef5f8b2baa16c5b12a69e4c2d3815",
+	"picture": "014.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAT/xAAfEAACAQQCAwAAAAAAAAAAAAABAgQAAwUGESESEzP/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/8QAGxEAAQQDAAAAAAAAAAAAAAAAAQACAxEhMXH/2gAMAwEAAhEDEQA/AIdsjaRAzmNkvlIKZMzHt3b63CzKvq+D8HxVOCD2OiaUpRRtq+pZXWRjQX//2Q==",
+	"nat": "FI"
+}

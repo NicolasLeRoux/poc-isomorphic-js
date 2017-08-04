@@ -1,0 +1,23 @@
+{
+	"gender": "male",
+	"name": {
+		"title": "mr",
+		"first": "simon",
+		"last": "meunier"
+	},
+	"location": {
+		"street": "3316 rue jean-baldassini",
+		"city": "dijon",
+		"state": "deux-sèvres",
+		"postcode": 72703
+	},
+	"email": "simon.meunier@example.com",
+	"dob": "1978-10-09 08:21:16",
+	"registered": "2012-06-27 04:57:28",
+	"phone": "05-30-45-87-00",
+	"cell": "06-84-10-01-67",
+	"id": "df2ccd230d2c0a244f1283e4c7111887",
+	"picture": "018.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAeEAABBAIDAQAAAAAAAAAAAAABAAIDBQYRBBMhMf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAGREAAwADAAAAAAAAAAAAAAAAAAEDAiJx/9oADAMBAAIRAxEAPwC/ZFc4tFljOJZXlXC3tMe3TxBxe5mhEdnw7PwoiJ4zRO1Xrw//2Q==",
+	"nat": "FR"
+}

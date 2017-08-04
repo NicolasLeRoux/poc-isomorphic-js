@@ -1,0 +1,23 @@
+{
+	"gender": "female",
+	"name": {
+		"title": "mrs",
+		"first": "paula",
+		"last": "sullivan"
+	},
+	"location": {
+		"street": "9925 blossom hill rd",
+		"city": "traralgon",
+		"state": "victoria",
+		"postcode": 2100
+	},
+	"email": "paula.sullivan@example.com",
+	"dob": "1953-12-10 08:01:54",
+	"registered": "2010-12-06 07:35:34",
+	"phone": "03-5471-7906",
+	"cell": "0473-127-209",
+	"id": "6135c35b932727aea8035c8bf5aa6c82",
+	"picture": "020.jpg",
+	"base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAIAAgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAeEAABBAIDAQAAAAAAAAAAAAABAAIDBAURFUFhgf/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8AnaWYjpScdnYHi3DOxhceg3Q270AfdoiIWUXtP//Z",
+	"nat": "AU"
+}
