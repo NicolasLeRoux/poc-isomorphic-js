@@ -9,6 +9,13 @@ function contactStyle (styletron) {
 	});
 }
 
+function imageStyle (styletron) {
+	return StyletronUtils.injectStyle(styletron, {
+		width: '128px',
+		height: '128px'
+	});
+}
+
 module.exports = {
 	view: function view (vnode) {
 		var user = vnode.attrs.user;
@@ -18,7 +25,8 @@ module.exports = {
 		}, [
 			m('img', {
 				slot: 'picture',
-				src: user.picture.thumbnail
+				class: imageStyle(vnode.attrs.styletron),
+				src: process.browser ? 'img/' + user.picture : user.base64
 			}),
 			m('span', {
 				slot: 'name'
@@ -29,7 +37,7 @@ module.exports = {
 			].join(' ')),
 			m('a', {
 				slot: 'link',
-				href: '/users/' + user.login.username,
+				href: '/users/' + user.id,
 				oncreate: m.route.link
 			}, 'more...')
 		]);

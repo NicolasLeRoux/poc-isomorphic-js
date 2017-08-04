@@ -25,7 +25,7 @@ module.exports = {
 		} else {
 			return m.request({
 					method: 'GET',
-					url: 'https://randomuser.me/api?results=10'
+					url: 'http://localhost:3000/rest/users'
 				})
 				.then(json => {
 					vnode.state.users = json.results;

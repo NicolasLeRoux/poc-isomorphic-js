@@ -56,4 +56,16 @@ app.get('/poc-contact-elem.html', function (req, res, next) {
 	}, 1000);
 });
 
+app.get('/rest/users', function (req, res, next) {
+	res.sendFile(path.join(__dirname, './stub/users.json'));
+});
+
+app.get('/rest/users/:userId', function (req, res, next) {
+	res.sendFile(path.join(__dirname, './stub/user.' + req.params.userId + '.json'));
+});
+
+app.get('/img/:image', function (req, res, next) {
+	res.sendFile(path.join(__dirname, './img/' + req.params.image));
+});
+
 app.listen(3000);
