@@ -68,10 +68,8 @@ Question: Comment corriger ce bug !?
 
 3. Utiliser redux pour manager les states de l'application.
 
-4. Envoyer les images en base64.
-
-5. Utiliser styletron (https://github.com/rtsao/styletron) pour la génération du
-style de l'application.
+4. Comprendre la raison/nécessité du premier render. A priori, le DOM ne change
+pas après le premier render client...
 
 
 ## Liens
