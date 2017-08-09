@@ -33,22 +33,22 @@
 </template>
 
 <script>
-	// Note: ``importDoc`` references this import's document. It must be done
-	// here in order to keep the refecence of the imported document for later
-	// instanciation of the custom element.
-	var importDoc = document.currentScript.ownerDocument;
-
 	class ContactElem extends HTMLElement {
 		constructor () {
 			super();
 
-			var template = importDoc
-				.querySelector('#poc-contact-tmpl')
-				.content;
-
 			const shadowRoot = this.attachShadow({mode: 'open'})
-				.appendChild(template.cloneNode(true));
-		}
+				.appendChild(this.template);
+		};
+
+		get template() {
+			if (!this._template) {
+				this.constructor.prototype._template = document.currentScript.ownerDocument
+					.querySelector('#poc-contact-tmpl').content;
+			}
+
+			return this._template.cloneNode(true);
+		};
 	};
 
 	customElements.define('poc-contact-elem', ContactElem);

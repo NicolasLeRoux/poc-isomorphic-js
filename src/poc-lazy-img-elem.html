@@ -25,19 +25,13 @@
 </template>
 
 <script>
-	var importDoc = document.currentScript.ownerDocument;
-
 	class LazyImgElem extends HTMLElement {
 		constructor () {
 			super();
 
-			var template = importDoc
-				.querySelector('#poc-lazy-img-tmpl')
-				.content;
-
 			const shadowRoot = this.attachShadow({mode: 'open'})
-				.appendChild(template.cloneNode(true));
-		}
+				.appendChild(this.template);
+		};
 
 		connectedCallback () {
 			var imgSrc = this.getAttribute('src'),
@@ -45,13 +39,22 @@
 
 			imgNode.src = imgSrc;
 			imgNode.onload = this.onImgLoad.bind(this);
-		}
+		};
 
 		onImgLoad (event) {
 			var imgNode = event.currentTarget;
 
 			this.shadowRoot.appendChild(imgNode);
-		}
+		};
+
+		get template() {
+			if (!this._template) {
+				this.constructor.prototype._template = document.currentScript.ownerDocument
+					.querySelector('#poc-lazy-img-tmpl').content;
+			}
+
+			return this._template.cloneNode(true);
+		};
 	};
 
 	customElements.define('poc-lazy-img-elem', LazyImgElem);
