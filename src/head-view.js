@@ -19,6 +19,11 @@ module.exports = {
 					rel: 'import',
 					href: '/poc-contact-elem.html',
 					async: true
+				}),
+				m('link', {
+					rel: 'import',
+					href: '/poc-lazy-img-elem.html',
+					async: true
 				})
 			])
 		];

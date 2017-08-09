@@ -56,6 +56,12 @@ app.get('/poc-contact-elem.html', function (req, res, next) {
 	}, 1000);
 });
 
+app.get('/poc-lazy-img-elem.html', function (req, res, next) {
+	setTimeout(function () {
+		res.sendFile(path.join(__dirname, './src/poc-lazy-img-elem.html'));
+	}, 1200);
+});
+
 app.get('/rest/users', function (req, res, next) {
 	res.sendFile(path.join(__dirname, './stub/users.json'));
 });

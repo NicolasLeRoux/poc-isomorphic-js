@@ -1,0 +1,58 @@
+<template id="poc-lazy-img-tmpl">
+	<style>
+		:host {
+			position: relative;
+		}
+
+		@keyframes fadein {
+			from {
+				opacity: 0;
+			}
+			to {
+				opacity: 1	;
+			}
+		}
+
+		img {
+			position: absolute;
+			left: 0;
+			animation: fadein 1s;
+		}
+	</style>
+
+	<slot>
+	</slot>
+</template>
+
+<script>
+	var importDoc = document.currentScript.ownerDocument;
+
+	class LazyImgElem extends HTMLElement {
+		constructor () {
+			super();
+
+			var template = importDoc
+				.querySelector('#poc-lazy-img-tmpl')
+				.content;
+
+			const shadowRoot = this.attachShadow({mode: 'open'})
+				.appendChild(template.cloneNode(true));
+		}
+
+		connectedCallback () {
+			var imgSrc = this.getAttribute('src'),
+				imgNode = document.createElement('img');
+
+			imgNode.src = imgSrc;
+			imgNode.onload = this.onImgLoad.bind(this);
+		}
+
+		onImgLoad (event) {
+			var imgNode = event.currentTarget;
+
+			this.shadowRoot.appendChild(imgNode);
+		}
+	};
+
+	customElements.define('poc-lazy-img-elem', LazyImgElem);
+</script>

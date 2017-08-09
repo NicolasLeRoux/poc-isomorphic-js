@@ -23,11 +23,13 @@ module.exports = {
 		return m('poc-contact-elem', {
 			class: contactStyle(vnode.attrs.styletron)
 		}, [
-			m('img', {
-				slot: 'picture',
-				class: imageStyle(vnode.attrs.styletron),
-				src: process.browser ? 'img/' + user.picture : user.base64
-			}),
+			m('poc-lazy-img-elem', {
+				src: 'img/' + user.picture,
+				slot: 'picture'
+			}, m('img', {
+					class: imageStyle(vnode.attrs.styletron),
+					src: user.base64
+				})),
 			m('span', {
 				slot: 'name'
 			}, [
