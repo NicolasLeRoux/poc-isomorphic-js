@@ -43,8 +43,10 @@
 
 		get template() {
 			if (!this._template) {
-				this.constructor.prototype._template = document.currentScript.ownerDocument
-					.querySelector('#poc-contact-tmpl').content;
+				this.constructor.prototype._template = document.currentScript
+					.ownerDocument
+					.querySelector('#poc-contact-tmpl')
+					.content;
 			}
 
 			return this._template.cloneNode(true);

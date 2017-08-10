@@ -35,11 +35,13 @@
 
 		connectedCallback () {
 			this.manageImgVisibility();
+
 			document.addEventListener('scroll', this.manageImgVisibility.bind(this));
 		};
 
 		showUncompressImg () {
 			var imgSrc, imgNode;
+
 			if (!this.shadowRoot.querySelector('img')) {
 				imgSrc = this.getAttribute('src');
 				imgNode = document.createElement('img');
@@ -52,7 +54,7 @@
 		removeUncompressImg () {
 			var img = this.shadowRoot.querySelector('img');
 
-			if ( img ) {
+			if (img) {
 				img.remove();
 			}
 		}
@@ -82,8 +84,10 @@
 
 		get template() {
 			if (!this._template) {
-				this.constructor.prototype._template = document.currentScript.ownerDocument
-					.querySelector('#poc-lazy-img-tmpl').content;
+				this.constructor.prototype._template = document.currentScript
+					.ownerDocument
+					.querySelector('#poc-lazy-img-tmpl')
+					.content;
 			}
 
 			return this._template.cloneNode(true);
