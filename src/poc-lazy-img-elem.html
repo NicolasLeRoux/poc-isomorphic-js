@@ -34,17 +34,50 @@
 		};
 
 		connectedCallback () {
-			var imgSrc = this.getAttribute('src'),
+			this.manageImgVisibility();
+			document.addEventListener('scroll', this.manageImgVisibility.bind(this));
+		};
+
+		showUncompressImg () {
+			var imgSrc, imgNode;
+			if (!this.shadowRoot.querySelector('img')) {
+				imgSrc = this.getAttribute('src');
 				imgNode = document.createElement('img');
 
-			imgNode.src = imgSrc;
-			imgNode.onload = this.onImgLoad.bind(this);
+				imgNode.src = imgSrc;
+				imgNode.onload = this.onImgLoad.bind(this);
+			}
+		};
+
+		removeUncompressImg () {
+			var img = this.shadowRoot.querySelector('img');
+
+			if ( img ) {
+				img.remove();
+			}
+		}
+
+		manageImgVisibility () {
+			if (this.isElementInViewport(this)) {
+				this.showUncompressImg();
+			} else {
+				this.removeUncompressImg();
+			}
 		};
 
 		onImgLoad (event) {
 			var imgNode = event.currentTarget;
 
 			this.shadowRoot.appendChild(imgNode);
+		};
+
+		isElementInViewport (node) {
+			var rect = node.getBoundingClientRect();
+
+			return rect.top >= 0 &&
+				rect.left >= 0 &&
+				rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+				rect.right <= (window.innerWidth || document.documentElement.clientWidth);
 		};
 
 		get template() {

@@ -9,13 +9,6 @@ function contactStyle (styletron) {
 	});
 }
 
-function imageStyle (styletron) {
-	return StyletronUtils.injectStyle(styletron, {
-		width: '128px',
-		height: '128px'
-	});
-}
-
 module.exports = {
 	view: function view (vnode) {
 		var user = vnode.attrs.user;
@@ -27,8 +20,9 @@ module.exports = {
 				src: 'img/' + user.picture,
 				slot: 'picture'
 			}, m('img', {
-					class: imageStyle(vnode.attrs.styletron),
-					src: user.base64
+					src: user.base64,
+					height: '128px',
+					width: '128px'
 				})),
 			m('span', {
 				slot: 'name'
